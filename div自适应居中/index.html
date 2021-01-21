@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>div自适应居中</title>
+</head>
+<body>
+<div>
+    <h1>div自适应居中</h1>
+    <div class="div-center">
+        <p style="color: #fff;"> Hello div!</p>
+    </div>
+</div>
+</body>
+<style>
+.div-center {
+    position: absolute;
+    /* 用 absolute 来设置自适应 */
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    /* 设置颜色方便观察 */
+    background-color: black;
+    border: 1px soild #ccc;
+}
+</style>
+</html>
